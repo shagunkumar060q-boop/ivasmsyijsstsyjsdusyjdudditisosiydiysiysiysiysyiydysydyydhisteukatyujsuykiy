@@ -14,19 +14,19 @@ from selenium.webdriver.support import expected_conditions as EC
 # ==========================================
 # Configuration
 # ==========================================
-API_ID = int(os.environ.get('API_ID', 33419175))
-API_HASH = os.environ.get('API_HASH', '556aa0a8ac62e9cb31ca8b4a9b390d3f')
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8731084809:AAHocpvW1ckCo4FdCDTJ5hzaAl156F5eiOQ')
-TARGET_TELEGRAM_ID = int(os.environ.get('TARGET_TELEGRAM_ID', -1003857054415))
+API_ID = int(os.environ.get('API_ID', 38829252))
+API_HASH = os.environ.get('API_HASH', '7d9d9c8c668232445f7157e1605aabde')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '8933245461:AAG8EHAntnbnTskEGhmI0eID4RGJX5feYPs')
+TARGET_TELEGRAM_ID = int(os.environ.get('TARGET_TELEGRAM_ID', -1003950821122))
 
-ACCOUNTS_JSON = os.environ.get('ACCOUNTS', '[{"name":"Panel_1","email":"mohamedsamy3450@gmail.com","pass":"0102068678Soso"}]')
+ACCOUNTS_JSON = os.environ.get('ACCOUNTS', '[{"name":"SHAGUN","email":"shagun1xx@gmail.com","pass":"Sh@gun12345"}]')
 ACCOUNTS = json.loads(ACCOUNTS_JSON)
 
 # Proxy Configuration
-PROXY_HOST = "d7cc7bc6400df357.abcproxy.vip"
-PROXY_PORT = 4950
-PROXY_USER = "Samy1gnQL2801-zone-abc-region-ci"
-PROXY_PASS = "q0OQGgu6ec"
+PROXY_HOST = "change4.owlproxy.com"
+PROXY_PORT = 7778
+PROXY_USER = "N2eqwHj9rU40_custom_zone_CI_st__city_sid_00317543_time_5"
+PROXY_PASS = "3453850"
 
 IVASMS_LOGIN_URL = "https://ivasms.com/login"
 IVASMS_LIVE_URL = "https://www.ivasms.com/portal/live/my_sms"
